@@ -1,0 +1,12 @@
+{
+  "name": "lector-archivos",
+  "description": "Lector de archivos: lee y edita documentos dentro de Claude Code con el aspecto de su formato original.",
+  "owner": { "name": "waldooCreator" },
+  "plugins": [
+    {
+      "name": "lector-archivos",
+      "source": "./",
+      "description": "Visor y editor de Word, Excel, PowerPoint, PDF, Markdown renderizado, CSV, JSON, imágenes y texto dentro de la terminal."
+    }
+  ]
+}

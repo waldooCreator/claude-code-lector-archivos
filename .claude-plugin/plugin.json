@@ -1,0 +1,35 @@
+{
+  "name": "lector-archivos",
+  "version": "0.2.0",
+  "description": "Lee y edita documentos dentro de Claude Code con el aspecto de su formato original: Word, Excel, PowerPoint, PDF, Markdown renderizado, CSV, JSON, imágenes y texto.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "waldooCreator"
+  },
+  "userConfig": {
+    "abrirSolo": {
+      "type": "boolean",
+      "title": "Abrir el visor solo",
+      "description": "Cuando Claude o sus subagentes leen, crean o cambian un documento (con sus herramientas o con un comando), el visor lo muestra en un panel.",
+      "default": true
+    },
+    "extensiones": {
+      "type": "string",
+      "title": "Qué archivos se abren solos",
+      "description": "Extensiones separadas por comas. Las demás se abren a mano con /leer.",
+      "default": "docx, docm, xlsx, xlsm, pptx, pptm, pdf, md, markdown, csv, tsv, png, jpg, jpeg, gif"
+    },
+    "ignorar": {
+      "type": "string",
+      "title": "Carpetas que nunca se abren solas",
+      "description": "Nombres de carpetas o archivos separados por comas (por ejemplo: dist, salida, borradores). CLAUDE.md, las memorias y las carpetas .claude, .git y node_modules ya se ignoran siempre.",
+      "default": ""
+    },
+    "anchoPanel": {
+      "type": "number",
+      "title": "Ancho del panel",
+      "description": "Columnas que pide el visor al abrirse al lado de la conversación.",
+      "default": 110
+    }
+  }
+}
