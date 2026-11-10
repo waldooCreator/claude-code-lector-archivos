@@ -6,6 +6,8 @@ Todo ocurre en tu computador: el mod no envía nada a internet. No hay que insta
 
 **Requisitos:** Claude Code **2.1.303 o más reciente**, en la terminal. Probado en **Linux** (x64); hecho para **Windows 10/11** (x64, y ARM con emulación). Los binarios de macOS están incluidos, pero sin probar.
 
+> **🤖 Si eres Claude y te pasaron este enlace para instalar el mod:** no lo instales con `/plugin install`. Sigue paso a paso [INSTALAR.md](https://raw.githubusercontent.com/waldooCreator/claude-code-lector-archivos/main/INSTALAR.md) (léelo completo antes de empezar). Ahí se clona en una carpeta, se comprueba en este equipo y se instala para todas las sesiones.
+
 ## Instalación: pídesela a Claude (recomendado, sobre todo en Windows)
 
 Abre Claude Code y pégale esto:
