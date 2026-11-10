@@ -1,3 +1,7 @@
+* text=auto eol=lf
 bin/* binary
 *.exe binary
-* text=auto eol=lf
+ejemplos/*.docx binary
+ejemplos/*.xlsx binary
+ejemplos/*.pptx binary
+ejemplos/*.png binary
